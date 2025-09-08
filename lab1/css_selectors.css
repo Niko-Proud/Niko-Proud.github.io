@@ -42,6 +42,12 @@ section{
     color: white;
 }
 
+iframe{
+    justify-content: center;
+    height: 750px;
+    width: 500px;
+}
+
 footer{
     text-align: center;
     background-color: white;
@@ -122,4 +128,10 @@ hr {
     list-style-type: disc;
     font-size: 14pt;
     margin: auto;
+}
+
+#contactForm{
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
 }
