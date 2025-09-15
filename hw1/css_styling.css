@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 26pt;
+    color: green;
+    background-color: black;
+    margin: auto;
+    height: auto;
+}
+
+h2{
+    font-size: 18pt;
+    color: green;
+    margin: auto;
+    height: auto;
+}
+
+a{
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    margin: 0 auto;
+    height: auto;
+}
+
+section{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+
+figcaption{
+    color: white;
+}
+
+article{
+    color: white;
+    font-size: 14pt;
+    justify-content: center;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+}
+
+.navBtns{
+    background-color: black;
+    font-size: 16pt;
+}
+
+.references{
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.picScaling{
+    object-fit: contain;
+    width: 40%;
+    height: 40%;
+}
