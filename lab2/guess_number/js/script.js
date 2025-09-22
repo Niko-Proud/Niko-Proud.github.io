@@ -90,7 +90,7 @@ function checkGuess(){
         document.querySelector("#attemptsLeft").textContent = guessesleft;
         document.querySelector("#resetBtn").style.display = "inline";
         if(attempts == 7){
-            feedback.textContent = "Sorry, you lost.";
+            feedback.textContent = "Sorry, you lost. the random number was: " + randomNumber;
             feedback.style.color = "red";
             losses++;
             gameOver();
