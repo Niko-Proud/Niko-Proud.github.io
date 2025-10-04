@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sign Up Page </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-info text-center">
+    <h1 class="mb-3 bg-dark text-white"> Sign Up </h1>
+    <!-- The form element will make it so that all the information entered will be pushed automatically to the
+     web server, and then a new page will be loaded with that information displayed -->
+    <form id="signupForm" action="welcome.html">
+     First Name:<input type="text" name="fName" class="m-3"><br>
+     Last Name: <input type="text" name="lName" class="m-3"><br>
+     Gender:  
+         <input type="radio" name="gender" value="m">Male
+         <input type="radio" name="gender" value="f" >Female<br>	
+      Zip Code:  <input type="text" id="zip" name="zip" class="mb-3"> <span id="zipNotFound"></span><br>
+      City:   <span id="city"></span> <br>
+      Latitude: <span id="latitude"></span>  <br>
+      Longitude: <span id="longitude"></span> <br><br>
+
+      State: 
+      <select class="m-3" id="state" name="state">
+            <!-- <option>Select One</option>
+            <option value="ca">California</option>
+            <option value="ny">New York</option>
+	        <option value="tx">Texas</option> -->
+       </select> <br>
+
+
+       Select a County: <select class="m-3" id="county"> <option> Please Select State </option> </select><br>
+
+
+       Desired Username: 
+       <input type="text" id="username" ><br>
+            <span id="usernameError"></span><br>
+
+
+        Password: <input id="password" type="password">
+            <span  id="suggestedPwd"></span> 
+            <br>
+            <span  id="passwordlength"></span>
+            <br>
+        Type Password Again: <input id="retypePwd" type="password"><br>
+            <span  id="passwordError"></span><br>
+
+         <input class="m-3" type="submit" value="Sign up!">
+    </form>
+    <!-- All elements you wish to change must be inside of the form element tag -->
+         <script src="js/script.js"></script>
+</body>
+</html>
