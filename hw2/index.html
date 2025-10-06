@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw2 Character Creator </title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/css_styles.css">
+</head>
+<body>
+    <h1 id="sheetName"> Character Creator </h1>
+
+    
+    <div id="statMethod"> Stat Method: 
+        <label for="statMethod">
+            <input type="radio" id="standardArray" value="standardArray" name="statOptions"> <label for="standardArray"> Standard Array </label>
+            <input type="radio" id="diceRoll" value="diceRoll" name="statOptions"> <label for="diceRoll"> Roll Dice </label>
+        </label>
+        <br>
+        <span id="statNums"></span>
+    </div>
+
+    <br>
+    <hr>
+    
+    <label for="cName" id="name"> Character Name: </label>
+    <input type="text" id="cName" size="25">
+
+    <br>
+    <hr>
+
+<section id="sheet">
+
+
+    <div id="stats">
+        <div id="strScore">
+            <label for="strength"><select name="statRolls" class="statRolls"></select></label>
+            STR
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+
+        <div id="dexScore">
+            <label for="dexterity"><select name="statRolls" class="statRolls"></select></label>
+            DEX
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+
+        <div id="conScore">
+            <label for="constitution"><select name="statRolls" class="statRolls"></select></label>
+            CON
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+
+        <div id="wisScore">
+            <label for="wisdom"><select name="statRolls" class="statRolls"></select></label>
+            WIS
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+
+        <div id="chaScore">
+            <label for="charisma"><select name="statRolls" class="statRolls"></select></label>
+            CHA
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+
+        <div id="intScore">
+            <label for="intelligence"><select name="statRolls" class="statRolls"></select></label>
+            INT
+            <br>
+            <span class="abilityMod"> +0 </span>
+        </div>
+        <br>
+    </div>
+
+    <br>
+
+    <div id="species">
+
+        <label for="species">
+            <select name="species" id="species">
+                <option value=""> Choose Species </option>
+                <option value="Human"> Human </option>
+                <option value="Dwarf"> Dwarf </option>
+                <option value="Elf"> Elf </option>
+            </select>
+        </label>
+
+        <br>
+
+        <div id="sepciesTraits"> Traits:
+            <span id="traits"></span>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div id="class">
+        Class:
+        <label for="class">
+            <select name="classes" id="classes">
+                <option value=""> Select Class </option>
+                <option value="fighter"> Fighter </option>
+                <option value="wizard"> Wizard </option>
+                <option value="cleric"> Cleric </option>
+            </select>
+        </label>
+        <br>
+        <span id="classBonuses"> Class Bonuses: </span>
+    </div>
+
+</section>
+
+</body>
+</html>
