@@ -1,0 +1,74 @@
+#sheet{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 33.333%;
+    gap: 25px;
+    padding: auto;
+}
+
+body{
+    text-align: center;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#stats{
+    background-color: white;
+    font-weight: 800;
+    padding: 1%;
+    font-size: large;
+    outline: auto;
+    outline-color: black;
+}
+
+#species{
+    background-color: white;
+    font-weight: 700;
+    outline: auto;
+    outline-color: black;
+}
+
+#class{
+    background-color: white;
+    font-weight: 700;
+    outline: auto;
+    outline-color: black;
+}
+
+.abilityMod{
+    outline: auto;
+    outline-width: auto;
+    outline-color: black;
+
+}
+
+#strScore{
+    padding: 5px;
+}
+
+#dexScore{
+    padding: 5px;
+}
+
+#conScore{
+    padding: 5px;
+}
+
+#wisScore{
+    padding: 5px;
+}
+
+#chaScore{
+    padding: 5px;
+}
+
+#intScore{
+    padding: 5px;
+}
